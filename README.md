@@ -19,4 +19,9 @@ alias exot='exit' # correct typing errors
 alias clera='clear' # correct typing errors
 
 alias qpositive='history -c && history -w && exit' # link more commands under one
+
+alias bang='git push'
+alias bing='git status && git add --all && git commit -m'
+
+alias duck='cd /opt/sandbox/gitLocal'
 ```
