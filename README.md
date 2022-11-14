@@ -20,8 +20,15 @@ alias clera='clear' # correct typing errors
 
 alias qpositive='history -c && history -w && exit' # link more commands under one
 
-alias bang='git push'
-alias bing='git status && git add --all && git commit -m'
+alias bing='git push'
+alias bang='git status && git add --all && git commit -m'
 
-alias duck='cd /opt/sandbox/gitLocal'
+alias duck='cd /home/devx/sandbox' # go to the sandbox
+
+alias qqqRunVEnv='. venv/bin/activate' # activate python virtual environment
+alias eeeCreateVEnv='python3 -m venv venv' # create python virtual environment
+
+alias shit='sudo $(history -p \!\!)' # run last command as root
+
+eval $(thefuck --alias FUCK)
 ```
